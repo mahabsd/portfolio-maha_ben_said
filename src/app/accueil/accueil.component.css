@@ -1,0 +1,140 @@
+.body {
+    padding-top: 10px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+}
+.div-navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+p:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+@keyframes mymove{
+    0%, 100%
+    {
+        transform: scale(1.1);
+    }
+    50%
+    {
+        transform: scale(0.8);
+    }
+}
+@keyframes mymove1{
+    0%, 100%
+    {
+        transform: scale(0.8);
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+}
+#Aboutme {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: rgba(206, 76, 119, 0.801);
+    border-radius: 35px;
+    border: rgba(128, 128, 128, 0.568) 1px solid;
+    /* animation: mymove1 1s infinite; */
+    justify-content: center;
+    border-radius: 35px;
+    border: rgba(128, 128, 128, 0.568) 1px solid;
+    box-shadow: 0 0 10px rgb(9, 167, 206), 0 0 40px rgb(24, 20, 226), 0 0 80px rgb(149, 130, 233);
+}
+
+.position-relative {
+    position: relative!important
+}
+span{
+    border-radius:200cm;
+    color: salmon;
+}
+.card-title{
+    color:slateblue;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 1100px;
+    margin-top: 100px;
+    position: fixed;
+}
+#circle1 {
+    background:hotpink;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 1500px;
+    margin-top: 50px;
+    position: fixed;
+}
+#circle2 {
+    background:sandybrown;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 1200px;
+    margin-top: 50px;
+    position: fixed;
+}
+#circle3 {
+    background:rgb(20, 226, 47);
+    border-radius: 50%;
+    border-style:inherit;
+    width: 70px;
+    height: 70px;
+    margin-left: 1300px;
+    margin-top: 80px;
+    position: fixed;
+}
+button:hover{
+   background-color:rgb(152, 8, 255);
+
+}
+button{
+    background-color:rgb(228, 205, 245) ;
+    border-color: rgb(152, 8, 255);
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 2000px;
+    margin-top: 30px;
+}
+#github{
+    width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 1900px;
+    margin-top: 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.back{
+    background: radial-gradient(circle, rgb(238, 156, 192) 0%, rgb(91, 156, 230) 100%);  
+    width: 1349px;
+}
+#section00{
+    padding-left: 1300px;
+}
+#section2-3{
+    padding-left: 1315px;
+}
+#section3-4{
+    padding-left: 1300px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

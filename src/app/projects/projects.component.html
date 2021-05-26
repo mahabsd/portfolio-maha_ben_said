@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <h1 class="offset-4 display-3" style="font-weight: bold; margin-top: 150px;">
+        My Recent Work
+    </h1>
+    <h2 class="offset-2" style="font-style: italic;">Here are a few design projects I've worked on recently.
+        Want to see more? <a class="text-color" href="https://github.com/mahabsd">Github repository</a>.</h2>
+    <div class="row" style=" margin-top:100px;">
+        <div class="offset-2 col-sm" >
+            <div class="card" (mouseover)="showDetails=true" (mouseleave)="showDetails=false">
+                <img class="card" src="./assets/CSV.png" alt="Card image cap" *ngIf="!showDetails">
+                <div class="card-body" *ngIf="showDetails">
+                    <h3 class="card-title ">CSV file mapping</h3>
+                    <h5 class="card-text">CSV file mapping is a web solution for managing and reformatting excel files and saving it's containing data in the database </h5>
+                    <a href="https://github.com/mahabsd/Angular-csv-file-check" class="btn gotoproject">Go to the website</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-sm">
+            <div class="card" (mouseover)="showDetailssecondproject=true" (mouseleave)="showDetailssecondproject=false">
+                <img class="card" src=" ./assets/img/chat-okbaclinical_Moment.jpg" alt="Card image cap" *ngIf="!showDetailssecondproject">
+                <div class="card-body" *ngIf="showDetailssecondproject">
+                    <h3 class="card-title1">Okba clinical web application</h3>
+                    <h5 class="card-text">Okba clinical web application is an application that serves clinical employees needs </h5>
+                    <a href="https://okba-clinical.herokuapp.com/login" class="btn gotoproject">Go to the website</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid emptyspace"></div>
+</div>

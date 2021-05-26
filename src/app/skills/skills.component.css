@@ -1,0 +1,46 @@
+.back{
+    padding-top: 10px;
+    background: radial-gradient(circle, rgb(238, 156, 192) 0%, rgb(91, 156, 230) 100%);
+    position:absolute;
+    height: 300px;
+}
+.Skills-content{
+    justify-content: center;
+    margin: 10px;
+    width: 250px;
+    height: 250px; 
+    border-radius: 15px;
+    background-color:whitesmoke;
+    position: relative;
+    left: 50px;
+    /* border-bottom: indigo; */
+
+}
+.text-color{
+    color: rgb(152, 8, 255);
+}
+svg {
+    color :rgb(152, 8, 255);
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none;
+  }
+.white{
+      height: 450px;
+      width: 100%;
+     background-color: white;
+  
+}
+div.card:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: rgb(119, 7, 199);
+
+}
+.card-text:hover{
+    color: white;
+}
+.text-color:hover{
+    color: white;
+}
